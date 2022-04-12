@@ -1,6 +1,5 @@
 # GroT-Grocery-Tracker-
-CS F213 OBJECT ORIENTED PROGRAMMING
-Final Project
+Object Oriented Programming Project
 
  ![image](https://user-images.githubusercontent.com/54977297/114083889-2d42c400-98cd-11eb-9fc7-e55885d1d838.png)
 
@@ -9,11 +8,6 @@ App Name: GroT-Grocery Tracker
 
 Compatibility: Android 5.1 (Lollipop) and above (Tested on Android 10)
 
-Team Members: 
-      Shaik Mohammed Shaquib (2019A7PS1325H)
-      Pathan Muhammed Bilal (2019A7PS0149H)
-      Mohammed Zia Ur Rahman (2019A7PS0133H)
-      A Rahul
 
 
 
@@ -23,9 +17,6 @@ Team Members:
 
 
 
-
-ACKNOWLEDGEMENTS
-Our deepest appreciation to our professors – Dr.Subhrakata Panda and Dr.DVN Siva Kumar who have taught us the course and to have helped us throughout the course.
 
 
 ABSTRACT
