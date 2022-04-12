@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tracker">
+
+    <Button
+        android:id="@+id/managegroceries_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Manage Groceries"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_btn" />
+
+    <Button
+        android:id="@+id/homemaintain_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Home Maintainance"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managegroceries_btn" />
+
+    <Button
+        android:id="@+id/bills_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Bills"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homemaintain_btn" />
+
+    <Button
+        android:id="@+id/todo_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="To-Do List"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bills_btn" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="89dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bills_btn"
+        app:layout_constraintEnd_toStartOf="@+id/bills_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bills_btn"
+        app:srcCompat="@drawable/homemaintainance" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="113dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/todo_btn"
+        app:layout_constraintEnd_toStartOf="@+id/todo_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/todo_btn"
+        app:srcCompat="@drawable/todo" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="93dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/managegroceries_btn"
+        app:layout_constraintEnd_toStartOf="@+id/managegroceries_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/managegroceries_btn"
+        app:srcCompat="@drawable/manage_groceries" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="90dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homemaintain_btn"
+        app:layout_constraintEnd_toStartOf="@+id/homemaintain_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homemaintain_btn"
+        app:srcCompat="@drawable/home" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

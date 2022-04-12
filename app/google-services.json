@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1030011926430",
+    "firebase_url": "https://my-application-e072b.firebaseio.com",
+    "project_id": "my-application-e072b",
+    "storage_bucket": "my-application-e072b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030011926430:android:1a11560112f1372890c88f",
+        "android_client_info": {
+          "package_name": "com.example.grot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030011926430-q2r3it69qk2qnjtesulovo63nsoguuof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuVWwgzBWASl50ACiPv3UzA8hEBsU9Ij8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030011926430-q2r3it69qk2qnjtesulovo63nsoguuof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030011926430:android:86f47a259a43793890c88f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030011926430-q2r3it69qk2qnjtesulovo63nsoguuof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuVWwgzBWASl50ACiPv3UzA8hEBsU9Ij8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030011926430-q2r3it69qk2qnjtesulovo63nsoguuof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030011926430:android:1d7c1a113914f40690c88f",
+        "android_client_info": {
+          "package_name": "com.tvacstudio.phonenumberauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030011926430-q2r3it69qk2qnjtesulovo63nsoguuof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuVWwgzBWASl50ACiPv3UzA8hEBsU9Ij8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030011926430-q2r3it69qk2qnjtesulovo63nsoguuof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

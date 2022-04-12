@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeMaintain">
+
+    <Button
+        android:id="@+id/milk_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/primary_btn_grey"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Milk"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_btn3" />
+
+    <Button
+        android:id="@+id/milk_red"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/primary_btn_red"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Due"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/milk_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/milk_btn"
+        app:layout_constraintTop_toTopOf="@+id/milk_btn" />
+
+    <Button
+        android:id="@+id/milk_green"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/primary_btn_green"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Paid"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/milk_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/milk_btn"
+        app:layout_constraintTop_toTopOf="@+id/milk_btn" />
+
+    <Button
+        android:id="@+id/paper_red"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/primary_btn_red"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Due"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/paper_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/paper_btn"
+        app:layout_constraintTop_toTopOf="@+id/paper_btn" />
+
+    <Button
+        android:id="@+id/paper_green"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/primary_btn_green"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Paid"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/paper_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/paper_btn"
+        app:layout_constraintTop_toTopOf="@+id/paper_btn" />
+
+    <Button
+        android:id="@+id/maid_red"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/primary_btn_red"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Due"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/maid_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/maid_btn"
+        app:layout_constraintTop_toTopOf="@+id/maid_btn" />
+
+    <Button
+        android:id="@+id/maid_green"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:background="@drawable/primary_btn_green"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Paid"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/maid_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/maid_btn"
+        app:layout_constraintTop_toTopOf="@+id/maid_btn" />
+
+    <Button
+        android:id="@+id/paper_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/primary_btn_grey"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Paper"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/milk_btn" />
+
+    <Button
+        android:id="@+id/maid_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/primary_btn_grey"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Maid"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paper_btn" />
+
+    <Button
+        android:id="@+id/back_btn3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/milk_btn"
+        app:layout_constraintEnd_toStartOf="@+id/milk_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/milk_btn"
+        app:srcCompat="@drawable/milk" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="87dp"
+        android:layout_height="104dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/paper_btn"
+        app:layout_constraintEnd_toStartOf="@+id/paper_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/paper_btn"
+        app:srcCompat="@drawable/news" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/maid_btn"
+        app:layout_constraintEnd_toStartOf="@+id/maid_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/maid_btn"
+        app:srcCompat="@drawable/maid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

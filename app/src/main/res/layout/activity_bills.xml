@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bills">
+
+    <Button
+        android:id="@+id/back_btn4"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/electricity_switch"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_peach"
+        android:buttonTint="#FFFFFF"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Electricity Bill"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_btn4" />
+
+    <Switch
+        android:id="@+id/gas_switch"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_peach"
+        android:buttonTint="#FFFFFF"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Gas Bill"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/electricity_switch" />
+
+    <Switch
+        android:id="@+id/houserent_switch"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_peach"
+        android:buttonTint="#FFFFFF"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="House Rent"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/internet_switch" />
+
+    <Switch
+        android:id="@+id/internet_switch"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_peach"
+        android:buttonTint="#FFFFFF"
+        android:fontFamily="@font/open_sans_semibold"
+        android:foregroundTint="#FFFFFF"
+        android:text="Internet Charges"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gas_switch" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="78dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/electricity_switch"
+        app:layout_constraintEnd_toStartOf="@+id/electricity_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/electricity_switch"
+        app:srcCompat="@drawable/electricity" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="63dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gas_switch"
+        app:layout_constraintEnd_toStartOf="@+id/gas_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gas_switch"
+        app:srcCompat="@drawable/gas" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="60dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/internet_switch"
+        app:layout_constraintEnd_toStartOf="@+id/internet_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/internet_switch"
+        app:srcCompat="@drawable/internet" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/houserent_switch"
+        app:layout_constraintEnd_toStartOf="@+id/houserent_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/houserent_switch"
+        app:srcCompat="@drawable/home" />
+</androidx.constraintlayout.widget.ConstraintLayout>

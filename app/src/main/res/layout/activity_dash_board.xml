@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard">
+
+    <Button
+        android:id="@+id/logout_btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_btn" />
+
+    <Button
+        android:id="@+id/workingprofessional_btn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Working Professional"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/homemaker_btn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Home Maker"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workingprofessional_btn" />
+
+    <Button
+        android:id="@+id/bachelor_btn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Bachelor"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homemaker_btn" />
+
+    <Button
+        android:id="@+id/jobseeker_btn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Job Seeker"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bachelor_btn" />
+
+    <Button
+        android:id="@+id/student_btn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/primary_btn_bg"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Student"
+        android:textAllCaps="false"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobseeker_btn" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="333dp"
+        android:layout_height="189dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grot_logo_1000_900x300" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Choose your Profession"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="74dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/workingprofessional_btn"
+        app:layout_constraintEnd_toStartOf="@+id/workingprofessional_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/workingprofessional_btn"
+        app:srcCompat="@drawable/working_professional" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="109dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homemaker_btn"
+        app:layout_constraintEnd_toStartOf="@+id/homemaker_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homemaker_btn"
+        app:srcCompat="@drawable/home_maker" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="102dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/jobseeker_btn"
+        app:layout_constraintEnd_toStartOf="@+id/jobseeker_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/jobseeker_btn"
+        app:srcCompat="@drawable/job_seeker" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="82dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/student_btn"
+        app:layout_constraintEnd_toStartOf="@+id/student_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/student_btn"
+        app:srcCompat="@drawable/student" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="69dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bachelor_btn"
+        app:layout_constraintEnd_toStartOf="@+id/bachelor_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bachelor_btn"
+        app:srcCompat="@drawable/bach" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
